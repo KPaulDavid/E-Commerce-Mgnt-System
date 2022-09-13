@@ -1,0 +1,56 @@
+<html>
+<head>
+<style>
+body
+{
+     background-image:url("mn.jpg");
+     background-size:100% 100%;
+}
+a 
+{ 
+   color: #FF00FF; 
+} /* CSS link color */
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0101 100%);
+	background-color: blue;
+	border-radius:3px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #F7B580;
+	&:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+ &:active {
+	position:relative;
+	top:1px;
+}
+ }
+</style>
+</style>
+</head>
+<body>
+<form method="post" action="plogon.php">
+<center><br><br><br><br><br><br><br><br><br><br><br><img src="logtxt.png" width="300" height="100">
+<table align="center" background="transparent" border="1" >
+<tr>
+ <th rowspan="4" bgcolor="transparent"><font size="4" color="white"><br><br>Dont Have an Account ID? <br><a href="newreg.html">Create New Account<br><br><br><a href="forgot.html">Forgot Password?</a></font>
+<tr>
+<th align="right"><font size="6" color="White">Enter Username  :</font><td><input type="text" name="username" required  placeholder="Username" style="font-size:18pt;width:190px;">
+<tr>
+<th align="right"><font size="6" color="white">Enter Password  :</font><td><input type="password" name="password" title="Enter Password" placeholder="Password" style="font-size:18pt;width:190px;">
+<tr>
+<th><input type="submit" value="Sign in" class="mybutton"><th><input type="reset" value="Reset" class="mybutton">
+</table>
+</center>
+</form>
+</body>
+</html>

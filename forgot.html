@@ -1,0 +1,61 @@
+<html>
+<script language="javascript">
+function verify()
+{
+       var pd1 = userfrm.pd.value;
+       var cpd1 = userfrm.cpd.value;
+       if(pd1 != cpd1)
+       {
+             alert("Invalid Password.... Verify");
+             userfrm.pd.value="";
+             userfrm.cpd.value="";
+             document.userfrm.pd.focus();
+       }
+}
+</script>
+<head>
+<style>
+.btn
+{
+       width:120px;
+        height:50px;
+        background: violet;
+        color:white;
+        font-size:20;
+}
+.btn:hover
+{
+      background:silver;
+      color:black;
+      border-radius:70px;
+}
+.txt
+{
+      font-size:25;
+      font-weight:bold;
+}
+.txtbox
+{
+      font-size:18;
+      font-style:italic;
+      color:green;
+}
+</style>
+</head>
+<body> 
+<form name="userfrm" method="post" action="forgotshow.php"><br><br><br><br><br><br><br><br><br>
+<table align="center" cellpadding="8" class="txt" background="qqq.jpg">
+<tr>
+<th rowspan="40"><img src="searchbird.gif" alt="image not found" width="150" height="150">
+<tr>
+<th colspan="3"><u><font size="6" color="red">Forgot Password</u>
+<tr>
+<td><font color="black">User Name<td><font color="red"> : <td><input type="text" name="username" required placeholder="Username" class="txtbox">
+<tr>
+<td><font color="black">Mobile Number <td><font color="red">: <td><input type="text" name="mobileno" required placeholder="Mobile Number" class="txtbox">
+<tr>
+<th colspan="3"> <input type="submit" value="Show" class="btn">
+</table>
+</form>
+</body>
+</html>

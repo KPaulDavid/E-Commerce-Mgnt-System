@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+.btn {
+  background-color:#3B8194;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size:16px;
+  margin: 3px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+</style>
+</head>
+<body>
+<form method="POST" name="lap" action="insertsuit.php">
+<center><table colspan="1" border="1" bgcolor="#ddd" height="250" width="300">
+<font color="#F59D56" size="8">This is Suits-Data  insertion</font>
+<th>Suit Id:<td><input type="text" name="suid">
+<tr>
+<th> Suit Company Name:<td><input type="text" name="sucname">
+<tr>
+<th> Suit-Size:<td><input type="text" name="susize">
+<tr>
+<th>Suit price:<td><input type="text" name="suprice">
+</table>
+<hr>
+<input type="submit" name="sub" value="Insert" class="btn">
+</center>
+</form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+.btn {
+  background-color:#00B7EF;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size:16px;
+  margin: 3px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+</style>
+</head>
+<body>
+<form name="vi" method="POST" action="insertsam.php">
+<center><table border="2" bgcolor="#DDD" width="300" height="200">
+<font color="#7A4E2B" size="8"> This is the Samsung phone data insertion</font>
+<th> Product-ID:<td><input type="text" name="samproid">
+<tr>
+<th>Product Name:<td><input type="text" name="samproname">
+<tr>
+<th>Product Price:<td><input type="text" name="samprprice">
+</table>
+<hr>
+<input type="submit" name="sub" value="Insert" class="btn">
+</form>
+</html>

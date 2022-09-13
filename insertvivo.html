@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+.btn {
+  background-color:#CF7B79;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size:16px;
+  margin: 3px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+</style>
+</head>
+<body>
+<form name="vi" method="POST" action="insertvivo.php">
+<center><table border="2" bgcolor="#DDD" width="300" height="200">
+<font color="black" size="8"> This is Vivo phone data insertion</font>
+<th> Product-ID:<td><input type="text" name="vproid">
+<tr>
+<th>Product Name:<td><input type="text" name="vproname">
+<tr>
+<th>Product Price:<td><input type="text" name="vprprice">
+</table>
+<hr>
+<input type="submit" name="sub" value="Insert" class="btn">
+</center>
+</form>
+</body>
+</html>

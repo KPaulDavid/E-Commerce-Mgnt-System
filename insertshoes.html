@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+.btn {
+  background-color:#CF7B79;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size:16px;
+  margin: 3px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #604C78;
+  color: white;
+}
+</style>
+</head>
+<body>
+<form method="POST" name="lap" action="insertshoes.php">
+<center><table colspan="3" border="2" bgcolor="#ddd" width="350" height="250">
+<font color="#666633" size="8">This is Shoe- Data  insertion</font>
+<th>Shoe Id:<td><input type="text" name="shid">
+<tr>
+<th> Shoe Company Name:<td><input type="text" name="shcname">
+<tr>
+<th> Shoe-Size:<td><input type="text" name="shsize">
+<tr>
+<th>Shirt price:<td><input type="text" name="shprice">
+</table>
+<hr>
+<input type="submit" name="sub" value="Insert" class="btn">
+</center>
+</form>
+</body>
+</html>

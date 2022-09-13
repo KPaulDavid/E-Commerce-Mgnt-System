@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+.btn {
+  background-color:#CF7B79;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size:16px;
+  margin: 3px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+</style>
+</head>
+<body>
+<form name="fg" method="POST" action="insertsamfg.php">
+<center><table border="2" bgcolor="#DDD" width="300" height="250">
+<font color="" size="8"> This is Samsung-fridge data insertion</font>
+<th> Product-ID:<td><input type="text" name="samfgid">
+<tr>
+<th>Product Name:<td><input type="text" name="samfgname">
+<tr>
+<th>Product  Capacity:<td><input type="text" name="samfgcapty">
+<tr>
+<th>Product Price:<td><input type="text" name="samfgprice">
+</table>
+<hr>
+<input type="submit" name="sub" value="Insert" class="btn">
+</form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+.btn {
+  background-color:#56769D;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size:16px;
+  margin: 3px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+</style>
+</head>
+<body>
+<form method="POST" name="lap" action="insertmaclaptop.php">
+<center><table colspan="3" border="2" bgcolor="#ddd" width="300" height="250">
+<font color="#903C39" size="8">This is macbook laptop insertion</font>
+<th>Laptop Id:<td><input type="text" name="mlapid">
+<tr>
+<th> Laptop Name:<td><input type="text" name="mlapname">
+<tr>
+<th> Laptop-Ram:<td><input type="text" name="mlapram">
+<tr>
+<th> Laptop price:<td><input type="text" name="mlapprice">
+</table>
+<hr>
+<input type="submit" name="sub" value="Insert" class="btn">
+</form>
+</body>
+</html>
